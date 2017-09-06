@@ -14,19 +14,24 @@
 <body>
 	<div class="contenedor">
 		<div class="row">
-			<picture>
-				<source 
-					media="(max-width:900pxs)"
-					srcset="assets/img/kitten-large.png">
-				<source 
-					media="(max-width:500pxs)"
-					srcset="assets/img/kitten-medium.png">
-				<source
-					media="(max-width:350pxs)"
-					srcset="assets/img/kitten-small.png">
-				<img src="assets/img/kitten-medium.png" alt="mauw">
-		</picture>
+
 		</div>
+
+			<picture class="gatos">
+			    <source
+			    	srcset="assets/img/kitten-small.png"
+					media="(max-width:350px)">					
+				<source 
+					srcset="assets/img/kitten-medium.png"
+					media="(max-width:500px)">
+				<source 
+					srcset="assets/img/kitten-large.png"
+					media="(max-width:1200px)"
+					>
+				
+				<img src="assets/img/kitten-medium.png" alt="mauw">
+			
+			</picture>
 	</div>
    	
 
