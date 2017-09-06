@@ -23,7 +23,7 @@ img{
 =            @media            =
 ==============================*/
 
-@media (min-width: 801px) and (max-width: 1200px) {
+@media (min-width: 1000px) and (max-width: 1200px) {
 	[class*="gatos"]{
 		width: 100%;
 	}	
@@ -34,8 +34,28 @@ img{
 		background-size: 100%;
 	}
 }
+@media (min-width: 801px) and (max-width: 1199px) {
+	[class*="gatos"]{
+		width: 100%;
+	}	
+	body{
+		font-family: "Lobster", cursive;
+		color: white;
+		background:url(../img/paisaje-1.jpg) /*no-repeat*/ fixed center center #333;
+		background-size: 100%;
+	}
+}
 
-@media (min-width: 601px) and (max-width:800px) {	
+@media (min-width: 701px) and (max-width:800px) {	
+	body{
+		font-family: "Lobster", cursive;
+		color: white;
+		background:url(../img/mini.jpg) /*no-repeat*/ fixed center center #333;
+		background-size: 100%;
+	}
+}
+
+@media (min-width: 601px) and (max-width:700px) {	
 	body{
 		font-family: "Lobster", cursive;
 		color: white;
@@ -54,5 +74,17 @@ img{
 		background-size: 100%;
 	}
 }
+
+@media (min-width: 151px) and (max-width:491px) {	
+	
+	body{
+
+		font-family: "Lobster", cursive;
+		color: white;
+		background:url(../img/gato-2.jpg) /*no-repeat*/ fixed center center #333;
+		background-size: 100%;
+	}
+}
+
 
 /*=====  End of @media  ======*/
