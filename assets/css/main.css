@@ -1,0 +1,52 @@
+
+*{
+	outline: 1px solid red;
+}
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	background:url(../img/land.jpg) no-repeat fixed center center #333;
+	background-size: 100%; /*darle el 100% de la imagen*/
+/*	width: 100%;
+*/}
+
+img{
+	width: 40%;
+	position: absolute;
+	top: 55%;
+	left: 30%;
+}
+/*==============================
+=            @media            =
+==============================*/
+
+@media (min-width: 501px) and (max-width: 900px) {
+	body{
+		font-family: "Lobster", cursive;
+		color: white;
+		background:url(../img/land.jpg) no-repeat fixed center center #333;
+		background-size: 100%;
+	}
+}
+
+@media (min-width: 351px) and (max-width:500pxs) {	
+	body{
+		font-family: "Lobster", cursive;
+		color: white;
+		background:url(../img/dawn.png) no-repeat fixed center center #333;
+		background-size: 100%;
+	}
+}
+
+@media (min-width: 100px) and (max-width:350pxs) {	
+	body{
+		font-family: "Lobster", cursive;
+		color: white;
+		background:url(../img/maxresdefault.jpg) no-repeat fixed center center #333;
+		background-size: 100%;
+	}
+}
+
+/*=====  End of @media  ======*/
+
